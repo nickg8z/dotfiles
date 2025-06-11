@@ -1,0 +1,31 @@
+# Ignore swap and backup files
+*.swp
+*.swo
+*.bak
+*~
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore .stow-local-ignore files if you create them
+.stow-local-ignore
+
+# Ignore user/system-specific files
+.cache/
+logs/
+sessions/
+
+# Ignore compiled binaries or dump files
+*.out
+*.log
+*.dump
+
+# Ignore private keys (never store in dotfiles!)
+*.pem
+*.key
+*.crt
+*.gpg
+*.asc
+
+# Temp files and lock files
+*.lock
